@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* css for scroll bar - hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1976d2;
+}
+
+/* css for scroll bar  */
+::-webkit-scrollbar-thumb {
+  background: #1976d2;
+  border-radius: 5px;
+}
+
+/* css for backgroud of scroll bar */
+::-webkit-scrollbar {
+  background: #efefef;
+  max-width: 10px;
+  height: 10px;
+}
